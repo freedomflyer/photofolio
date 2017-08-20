@@ -1,0 +1,47 @@
+{
+  "name": "ts-react",
+  "version": "1.0.0",
+  "description": "photo album in react and ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo Building Webpack && webpack",
+    "run": "webpack-dev-server --hot --inline",
+    "mobile": "webpack-dev-server --host 0.0.0.0"
+  },
+  "keywords": [
+    "photo",
+    "album",
+    "ts",
+    "react"
+  ],
+  "author": "@spencergardner",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "15.0.27",
+    "@types/react-dom": "15.5.0",
+    "awesome-typescript-loader": "^3.2.1",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.29.0",
+    "redux": "^3.7.1",
+    "redux-devtools": "^3.4.0",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.2.1",
+    "typescript": "^2.4.1",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "dependencies": {
+    "airtable": "^0.5.0",
+    "glamor": "^3.0.0-3",
+    "glamorous": "^3.23.5",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-id-swiper": "^1.4.0",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.7.2",
+    "swiper": "^3.4.2",
+    "swiper-r": "^0.1.3"
+  }
+}
