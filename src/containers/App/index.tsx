@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Header, ArticlePreview, CardDeck, CardDetail} from '../../components'
+import {Header, CardDeck, CardDetail} from '../../components'
 import glamorous from 'glamorous'
 import { Switch, Route } from 'react-router-dom'
 
@@ -24,10 +24,6 @@ export class App extends React.Component<App.Props, App.State> {
             text: 'text',
             border: false,
         }
-
-        const StyledArticlePreview = glamorous(ArticlePreview)({
-            backgroundColor: 'red',
-        })
 
         return (
             <div>
